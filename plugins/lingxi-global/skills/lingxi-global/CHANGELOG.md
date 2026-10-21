@@ -2,6 +2,10 @@
 
 All notable changes to the LingXi Global skill. Newest first. Every change to this skill must bump `metadata.version` in `SKILL.md` and add an entry here.
 
+## 1.0.2 — 2026-10-21
+
+- The plugin repository moved to `lingxi/lingxi-global-skills`; install and update instructions use the new address.
+
 ## 1.0.1 — 2026-10-21
 
 - If the connection-status tool is not available yet, skip the status and version check silently and continue.

@@ -14,7 +14,7 @@ LingXi Global server URL: `https://mcp.lxi.hk/mcp/lingxi`
   3. Complete "Sign in to LingXi" below in the browser window that opens.
 - **Plugin not installed:** recommend installing it, because it also keeps this skill up to date:
   ```bash
-  claude plugin install lingxi-global --marketplace lingxi/lingxi-global
+  claude plugin install lingxi-global --marketplace lingxi/lingxi-global-skills
   ```
   If they prefer to add only the connection:
   ```bash
@@ -33,7 +33,7 @@ If the option is not available, their Claude plan or their organization's settin
 
 ### Claude desktop app (Cowork)
 
-1. Open **Customize → Plugins → Add → Add marketplace** and enter `lingxi/lingxi-global`.
+1. Open **Customize → Plugins → Add → Add marketplace** and enter `lingxi/lingxi-global-skills`.
 2. Install **LingXi Global**.
 3. When asked to connect, complete "Sign in to LingXi" below.
 
@@ -72,7 +72,7 @@ Offer the update method that matches how the user installed it. If you can run c
 | --- | --- |
 | Claude Code plugin | `claude plugin update lingxi-global@lingxi-global`, then `/reload-plugins` or start a new session |
 | Claude desktop app (Cowork) plugin | **Customize → Plugins → LingXi Global → Check for updates** |
-| `npx skills` | `npx skills add lingxi/lingxi-global` (installs the latest version over the old one) |
+| `npx skills` | `npx skills add lingxi/lingxi-global-skills` (installs the latest version over the old one) |
 | Any app | Ask the AI: "Please read https://mcp.lxi.hk/mcp/install.md and update LingXi Global for me." |
 
 To get updates automatically in Claude Code: `/plugin` → **Marketplaces** → `lingxi-global` → **Enable auto-update**.

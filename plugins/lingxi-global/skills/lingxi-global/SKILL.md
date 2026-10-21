@@ -2,7 +2,7 @@
 name: lingxi-global
 description: LingXi Global (Hong Kong / international edition of LingXi 靈析). Use whenever the user wants to find, create, edit, review or publish forms and activities (表單、活動、報名表), check registrations and submissions, fill in a submission on someone's behalf, or look up contacts (聯絡人) in their LingXi organization. Guides first-time users through connecting their LingXi account.
 metadata:
-  version: 1.0.1
+  version: 1.0.2
 ---
 
 # LingXi Global
@@ -32,7 +32,7 @@ Call `get_lingxi_status` once. It returns the organization, the signed-in user, 
 
 ### 1.3 Compare versions
 
-Your version is `metadata.version` in this file's header (currently 1.0.1). Compare it with `skill.latest_version` and `skill.min_version` from the status, number by number (major.minor.patch).
+Your version is `metadata.version` in this file's header (currently 1.0.2). Compare it with `skill.latest_version` and `skill.min_version` from the status, number by number (major.minor.patch).
 
 | Situation | What to do |
 | --- | --- |
