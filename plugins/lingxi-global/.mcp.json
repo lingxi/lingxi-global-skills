@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "lingxi-global": {
+      "type": "http",
+      "url": "https://mcp.lxi.hk/mcp/lingxi"
+    }
+  }
+}

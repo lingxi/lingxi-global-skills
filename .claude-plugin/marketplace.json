@@ -1,0 +1,19 @@
+{
+  "name": "lingxi-global",
+  "owner": {
+    "name": "LingXi 靈析",
+    "url": "https://github.com/lingxi"
+  },
+  "metadata": {
+    "description": "Official LingXi Global (Hong Kong / international edition) plugins for AI assistants."
+  },
+  "plugins": [
+    {
+      "name": "lingxi-global",
+      "source": "./plugins/lingxi-global",
+      "description": "Run your LingXi forms, activity registrations and contacts from your AI assistant — with guided setup.",
+      "category": "productivity",
+      "keywords": ["lingxi", "forms", "activities", "registration", "contacts", "ngo", "hong-kong"]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "lingxi-global",
+  "version": "0.0.0",
+  "description": "Run your LingXi forms, activity registrations and contacts from your AI assistant — with guided setup.",
+  "author": {
+    "name": "LingXi 靈析",
+    "url": "https://github.com/lingxi"
+  },
+  "homepage": "https://mcp.lxi.hk/mcp/introduction",
+  "repository": "https://github.com/lingxi/lingxi-global",
+  "keywords": ["lingxi", "forms", "activities", "registration", "contacts", "ngo", "hong-kong"]
+}

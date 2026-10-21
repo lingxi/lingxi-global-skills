@@ -1,0 +1,20 @@
+{
+  "name": "lingxi-global",
+  "interface": {
+    "displayName": "LingXi Global"
+  },
+  "plugins": [
+    {
+      "name": "lingxi-global",
+      "source": {
+        "source": "local",
+        "path": "./plugins/lingxi-global"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
