@@ -1,19 +1,29 @@
 {
-  "name": "lingxi-global",
-  "version": "0.0.0",
-  "description": "Run your LingXi forms, activity registrations and contacts from your AI assistant — with guided setup.",
-  "skills": "./skills/",
-  "author": {
-    "name": "LingXi 靈析"
-  },
-  "keywords": ["lingxi", "forms", "activities", "registration", "contacts"],
-  "interface": {
-    "displayName": "LingXi Global",
-    "shortDescription": "LingXi forms, activity registrations and contacts, with guided setup.",
-    "longDescription": "Find, create and publish forms and activities, review registrations and look up contacts in your LingXi Global organization. The skill guides you through connecting your LingXi account on first use.",
-    "developerName": "LingXi 靈析",
-    "category": "Productivity",
-    "capabilities": ["Skills"],
-    "defaultPrompt": ["Use LingXi Global to show my latest forms and their registrations."]
-  }
+    "name": "lingxi-global",
+    "version": "1.0.0",
+    "description": "Run your LingXi forms, activity registrations and contacts from your AI assistant — with guided setup.",
+    "skills": "./skills/",
+    "author": {
+        "name": "LingXi 靈析"
+    },
+    "keywords": [
+        "lingxi",
+        "forms",
+        "activities",
+        "registration",
+        "contacts"
+    ],
+    "interface": {
+        "displayName": "LingXi Global",
+        "shortDescription": "LingXi forms, activity registrations and contacts, with guided setup.",
+        "longDescription": "Find, create and publish forms and activities, review registrations and look up contacts in your LingXi Global organization. The skill guides you through connecting your LingXi account on first use.",
+        "developerName": "LingXi 靈析",
+        "category": "Productivity",
+        "capabilities": [
+            "Skills"
+        ],
+        "defaultPrompt": [
+            "Use LingXi Global to show my latest forms and their registrations."
+        ]
+    }
 }
