@@ -22,14 +22,14 @@ It will install the right pieces for your app and walk you through signing in.
 
 | Your app | How |
 | --- | --- |
-| **Claude Code** | `claude plugin install lingxi-global --marketplace lingxi/lingxi-global` |
-| **Claude desktop / web app** | Customize → Plugins → Add → Add marketplace → `lingxi/lingxi-global` → install **LingXi Global** |
-| **Codex, Cursor and other assistants** | `npx skills add lingxi/lingxi-global`, then add the MCP server `https://mcp.lxi.hk/mcp/lingxi` in your app's MCP settings |
+| **Claude Code** | `claude plugin install lingxi-global --marketplace lingxi/lingxi-global-skills` |
+| **Claude desktop / web app** | Customize → Plugins → Add → Add marketplace → `lingxi/lingxi-global-skills` → install **LingXi Global** |
+| **Codex, Cursor and other assistants** | `npx skills add lingxi/lingxi-global-skills`, then add the MCP server `https://mcp.lxi.hk/mcp/lingxi` in your app's MCP settings |
 
 If your Claude Code version does not support `--marketplace`, run:
 
 ```bash
-claude plugin marketplace add lingxi/lingxi-global
+claude plugin marketplace add lingxi/lingxi-global-skills
 claude plugin install lingxi-global@lingxi-global
 ```
 

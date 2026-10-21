@@ -22,14 +22,14 @@ AI 助手会一步步引导你，每一步都告诉你当前的状态，并且�
 
 | 你使用的工具 | 安装方法 |
 | --- | --- |
-| **Claude Code** | `claude plugin install lingxi-global --marketplace lingxi/lingxi-global` |
-| **Claude 桌面版 / 网页版** | 自定义 → 插件 → 添加 → 添加市场 → 输入 `lingxi/lingxi-global` → 安装 **LingXi Global** |
-| **Codex、Cursor 等其他助手** | 执行 `npx skills add lingxi/lingxi-global`，再在工具的 MCP 设置中添加 `https://mcp.lxi.hk/mcp/lingxi` |
+| **Claude Code** | `claude plugin install lingxi-global --marketplace lingxi/lingxi-global-skills` |
+| **Claude 桌面版 / 网页版** | 自定义 → 插件 → 添加 → 添加市场 → 输入 `lingxi/lingxi-global-skills` → 安装 **LingXi Global** |
+| **Codex、Cursor 等其他助手** | 执行 `npx skills add lingxi/lingxi-global-skills`，再在工具的 MCP 设置中添加 `https://mcp.lxi.hk/mcp/lingxi` |
 
 如果你的 Claude Code 版本不支持 `--marketplace`，请改为执行：
 
 ```bash
-claude plugin marketplace add lingxi/lingxi-global
+claude plugin marketplace add lingxi/lingxi-global-skills
 claude plugin install lingxi-global@lingxi-global
 ```
 
